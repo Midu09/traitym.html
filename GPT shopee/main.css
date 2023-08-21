@@ -1,0 +1,266 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+
+        .header {
+            height: 80px;
+            background-color: #f53d2d;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            width: 120px;
+            height: 40px;
+            margin-left: 20px;
+        }
+
+        .search {
+            flex: 1;
+            margin-left: 20px;
+            position: relative;
+        }
+
+        .search input {
+            width: 100%;
+            height: 40px;
+            border-radius: 20px;
+            border: none;
+            padding-left: 20px;
+            font-size: 16px;
+        }
+
+        .search button {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: none;
+            background-color: white;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .search button img {
+            width: 20px;
+            height: 20px;
+        }
+
+        .menu {
+            height: 40px;
+            background-color: #f9f9f9;
+            display: flex;
+        }
+
+        .menu a {
+            color: black;
+            text-decoration: none;
+            font-size: 14px;
+            line-height: 40px;
+            padding-left: 20px;
+        }
+
+        .menu a:hover {
+            color: #f53d2d;
+        }
+
+        .banner {
+            height: 400px;
+            background-image: url("https://thongtinthammy.com/wp-content/uploads/2020/04/shopee-viet-nam-trien-khai-goi-ho-tro-100-ty-dong-nham-giup-cac-nha-ban-hang-trong-dai-dich-covid-19.png");
+            background-size: cover;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 20px;
+            margin-top: 20px;
+        }
+
+        .product {
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .product img {
+            width: 100%;
+        }
+
+        .product-info {
+            padding: 10px;
+        }
+
+        .product-name {
+            font-size: 14px;
+            color: black;
+        }
+
+        .product-price {
+            font-size: 16px;
+            color:#f53d2d ;
+        }
+    </style>
+    <!-- Dang nhap -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+
+        .header {
+            height: 80px;
+            background-color: #f53d2d;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            width: 120px;
+            height: 40px;
+            margin-left: 20px;
+        }
+
+        .menu {
+            height: 40px;
+            background-color: #f9f9f9;
+            display: flex;
+        }
+
+        .menu a {
+            color: black;
+            text-decoration: none;
+            font-size: 14px;
+            line-height: 40px;
+            padding-left: 20px;
+        }
+
+        .menu a:hover {
+            color: #f53d2d;
+        }
+
+        .login-form {
+            width: 400px;
+            margin: 100px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+
+        .login-form h2 {
+            text-align: center;
+            color:#f53d2d ;
+        }
+
+        .login-form input {
+            width: 100%;
+            height: 40px;
+            border-radius: 20px;
+            border: none;
+            padding-left: 20px;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .login-form button {
+            width: 100%;
+            height: 40px;
+            border-radius: 20px;
+            border:none ;
+            background-color:#f53d2d ;
+            color:white ;
+            font-size: 16px;
+
+        }
+    </style>
+
+    <!-- Dangky -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+
+        .header {
+            height: 80px;
+            background-color: #f53d2d;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            width: 120px;
+            height: 40px;
+            margin-left: 20px;
+        }
+
+        .menu {
+            height: 40px;
+            background-color: #f9f9f9;
+            display: flex;
+        }
+
+        .menu a {
+            color: black;
+            text-decoration: none;
+            font-size: 14px;
+            line-height: 40px;
+            padding-left: 20px;
+        }
+
+        .menu a:hover {
+            color: #f53d2d;
+        }
+
+        .register-form {
+            width: 400px;
+            margin: 100px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+
+        .register-form h2 {
+            text-align: center;
+            color:#f53d2d ;
+        }
+
+        .register-form input {
+            width: 100%;
+            height: 40px;
+            border-radius: 20px;
+            border: none;
+            padding-left: 20px;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .register-form button {
+            width: 100%;
+            height: 40px;
+            border-radius: 20px;
+            border:none ;
+            background-color:#f53d2d ;
+            color:white ;
+            font-size: 16px;
+
+        }
